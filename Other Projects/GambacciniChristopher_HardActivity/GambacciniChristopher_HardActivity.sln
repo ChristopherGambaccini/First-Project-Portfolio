@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GambacciniChristopher_HardActivity", "GambacciniChristopher_HardActivity\GambacciniChristopher_HardActivity.csproj", "{1C9FD17F-2F49-4EB4-81F6-CE84CA9CDD03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9FD17F-2F49-4EB4-81F6-CE84CA9CDD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9FD17F-2F49-4EB4-81F6-CE84CA9CDD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9FD17F-2F49-4EB4-81F6-CE84CA9CDD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9FD17F-2F49-4EB4-81F6-CE84CA9CDD03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
