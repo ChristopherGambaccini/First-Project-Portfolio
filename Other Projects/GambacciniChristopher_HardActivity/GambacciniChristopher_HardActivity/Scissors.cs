@@ -18,6 +18,14 @@ namespace GambacciniChristopher_HardActivity
             float mpaperScissors;
 
 
+        //create default constructor
+        public Scissors(string rock)
+        {
+
+            //output to console
+            Console.WriteLine("Scissors defalult constructor");
+        }
+
         //create constructor function 
         //add parameters
         public Scissors(string _onescissors, decimal _twoscissors, double _threescissors)
@@ -56,6 +64,54 @@ namespace GambacciniChristopher_HardActivity
 
             //output to console
             Console.WriteLine("Scissors parameter: Paper");
+
+
+        }
+ 
+       
+        public static void RockMethod()
+        {
+
+            Console.WriteLine("Scissors method with parameter Rock");
+
+        }
+
+       
+         //create additional method for papper 
+        public static void RockMethod(int rock)
+        {
+
+            //create new object with Scissor Class
+            Paper scissorClass = new Paper(rock);
+
+            //output to console
+            Console.WriteLine("Scissors method with parameter Rock");
+
+
+        }
+        //create additional method for papper 
+        public static void PaperMethod(float paper)
+        {
+
+
+            //create new object with Paper Class
+            Rock paperClass = new Rock(paper);
+
+            //output to console
+            Console.WriteLine("Scissors method with parameter Paper");
+
+
+
+
+        }
+        public static void CombineMethod(int rock, float paper)
+        {
+
+            Scissors.RockMethod(rock);
+
+            Scissors.PaperMethod(paper);
+
+            Console.WriteLine("Scissors calling both methods");
 
 
         }
